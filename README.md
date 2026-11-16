@@ -15,11 +15,9 @@ MEGB is a longitudinal regression method. The classification workflows are two-s
 
 ## Installation
 
-Install the model engines you plan to use, then install `memlkit` from CRAN:
-
 ```r
-install.packages(c("MEGB", "LongituRF", "SAEforest", "lightgbm", "ranger", "lme4", "pdp", "ggplot2"))
-install.packages("memlkit")
+install.packages("remotes")
+remotes::install_github("iron-hong/memlkit")
 ```
 
 ## Panel data
