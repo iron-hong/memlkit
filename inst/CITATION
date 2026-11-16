@@ -1,0 +1,10 @@
+citHeader("To cite memlkit in publications, please use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "memlkit: Mixed-Effects Machine Learning for Panel and Multilevel Data",
+  author = person(given = "Iron", family = "Hong"),
+  year = "2026",
+  note = paste("R package version", utils::packageVersion("memlkit")),
+  url = "https://github.com/iron-hong/memlkit"
+)

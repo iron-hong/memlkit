@@ -1,0 +1,24 @@
+Package: memlkit
+Type: Package
+Title: Unified Mixed-Effects Tree Models for Panel and Multilevel Data
+Version: 0.0.1
+Authors@R: person("Iron", "Hong", role = c("aut", "cre", "cph"), email = "righttocity123@gmail.com")
+Description: Provides unified interfaces for longitudinal panel data and
+    cross-sectional multilevel data. Supports mixed-effects random forests,
+    mixed-effects gradient boosting, and LightGBM extensions for regression
+    and classification. Panel gradient boosting follows Olaniran et al. (2025)
+    <doi:10.1038/s41598-025-16526-z>; longitudinal random forests follow
+    Capitaine et al. (2021) <doi:10.1177/0962280220946080> and Hajjem et al.
+    (2014) <doi:10.1080/00949655.2012.741599>. The multilevel mixed-effects
+    random forest workflow follows Krennmair and Schmid (2022)
+    <doi:10.1111/rssc.12600>. Includes prediction, random-effect extraction,
+    variable importance, partial dependence plots, and model comparison.
+License: MIT + file LICENSE
+URL: https://github.com/iron-hong/memlkit
+BugReports: https://github.com/iron-hong/memlkit/issues
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils
+Suggests: MEGB, LongituRF, SAEforest, randomForest, ranger, pdp, ggplot2, lme4, lightgbm, gbm
+RoxygenNote: 7.3.2
+Collate: 'meml_core.R' 'new_interfaces.R' 'model_comparison.R' 'simulate_data.R'
