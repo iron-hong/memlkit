@@ -31,7 +31,6 @@ install.packages(c(
 
 ```r
 library(memlkit)
-library(lightgbm)
 ```
 
 ## Cross-sectional nested multilevel data
